@@ -1,0 +1,37 @@
+body {
+  background-color: #ffffff;
+}
+
+/* Кнопки */
+.tp-widget-button {
+  background: #d4af37 !important;
+  color: #ffffff !important;
+  border: 2px solid #d4af37 !important;
+  transition: all 0.3s ease;
+}
+
+.tp-widget-button:hover {
+  background: #ffffff !important;
+  color: #d4af37 !important;
+  border: 2px solid #d4af37 !important;
+}
+
+/* Заголовки */
+.tp-widget .form-label {
+  color: #333333 !important;
+}
+
+/* Поля */
+.tp-widget input,
+.tp-widget textarea,
+.tp-widget select {
+  color: #333333 !important;
+  border: 1px solid #333333 !important;
+}
+
+.tp-widget input:focus,
+.tp-widget textarea:focus,
+.tp-widget select:focus {
+  border-color: #d4af37 !important;
+  outline: none !important;
+}
